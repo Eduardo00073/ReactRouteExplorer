@@ -10,7 +10,7 @@ import {
 import { REACT_APP_GOOGLE_API_KEY } from "../App";
 import "./MapPage.css";
 
-export interface MapPageProps {}
+export interface MapPageProps { }
 
 const MapPage = () => {
   const [map, setMap] = React.useState<google.maps.Map>();
@@ -31,8 +31,8 @@ const MapPage = () => {
     React.useState<google.maps.DistanceMatrixResponse | null>(null);
 
   const position = {
-    lat: -27.590824,
-    lng: -48.551262,
+    lat: -20.275986400323127,
+    lng: -50.541355008625324,
   };
 
   const onMapLoad = (map: google.maps.Map) => {
@@ -119,6 +119,14 @@ const MapPage = () => {
           mapContainerStyle={{ width: "100%", height: "100%" }}
           center={position}
           zoom={15}
+          options={{
+            mapTypeControl: true,
+            mapTypeControlOptions: {
+              style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+              position: google.maps.ControlPosition.BOTTOM_CENTER,
+            },
+            // Adicione outras opções de mapa necessárias aqui
+          }}
         >
           <div className="address">
             <StandaloneSearchBox
@@ -139,7 +147,7 @@ const MapPage = () => {
                 placeholder="Digite o endereço final"
               />
             </StandaloneSearchBox>
-            <button onClick={traceRoute}>Traçar rota</button>
+            <button className="routeButton" onClick={traceRoute}>Traçar rota</button>
           </div>
 
           {!response && pointA && <Marker position={pointA} />}
