@@ -115,18 +115,11 @@ const MapPage = () => {
         libraries={["places"]}
       >
         <GoogleMap
+
           onLoad={onMapLoad}
           mapContainerStyle={{ width: "100%", height: "100%" }}
           center={position}
           zoom={15}
-          options={{
-            mapTypeControl: true,
-            mapTypeControlOptions: {
-              style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-              position: google.maps.ControlPosition.BOTTOM_CENTER,
-            },
-            // Adicione outras opções de mapa necessárias aqui
-          }}
         >
           <div className="address">
             <StandaloneSearchBox
@@ -148,6 +141,7 @@ const MapPage = () => {
               />
             </StandaloneSearchBox>
             <button className="routeButton" onClick={traceRoute}>Traçar rota</button>
+
           </div>
 
           {!response && pointA && <Marker position={pointA} />}
