@@ -1,7 +1,6 @@
-# Aplicativo de Rotas em Mapas - React e JavaScript
-
+# Aplicativo de Rotas em Mapas - React e TypeScript
 Descrição
-Este projeto apresenta um aplicativo interativo de mapas, desenvolvido com a combinação eficiente de React JS e JavaScript puro. A essência do aplicativo é fornecer uma ferramenta simples e intuitiva para traçar rotas entre dois endereços específicos.
+Este projeto apresenta um aplicativo interativo de mapas, desenvolvido com a combinação eficiente de React JS e TypeScript puro. A essência do aplicativo é fornecer uma ferramenta simples e intuitiva para traçar rotas entre dois endereços específicos.
 
 Funcionalidades:
 Visualização de Mapas: Utilize uma interface de mapas dinâmica e responsiva para visualizar diferentes locais.
