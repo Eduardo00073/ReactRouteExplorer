@@ -1,15 +1,43 @@
-# Aplicativo de Rotas em Mapas - React e TypeScript
-Descrição
-Este projeto apresenta um aplicativo interativo de mapas, desenvolvido com a combinação eficiente de React JS e TypeScript puro. A essência do aplicativo é fornecer uma ferramenta simples e intuitiva para traçar rotas entre dois endereços específicos.
+<h1 align="center">🗺️ React Route Explorer</h1>
 
-Funcionalidades:
-Visualização de Mapas: Utilize uma interface de mapas dinâmica e responsiva para visualizar diferentes locais.
-Traçado de Rotas: Insira dois endereços distintos e veja a rota traçada automaticamente no mapa, oferecendo um planejamento de viagem prático e rápido.
-Desenvolvimento Ágil: Construído com React JS, o aplicativo promove uma experiência de usuário fluida, integrando-se harmoniosamente com a lógica do JavaScript.
-Tecnologias Utilizadas:
-React JS: Para a construção de uma interface de usuário dinâmica e interativa.
-JavaScript: Para manipulação de mapas e lógica de traçado de rotas.
-Como Usar:
-Acesse o aplicativo.
-Insira o endereço de partida e o de destino nos campos fornecidos.
-Visualize a rota traçada no mapa.
+<p align="center">
+Aplicativo interativo de mapas para traçar rotas entre dois endereços, desenvolvido com React e TypeScript.
+</p>
+
+---
+
+## 📖 Sobre o projeto
+
+O **React Route Explorer** é uma aplicação web que utiliza a API do Google Maps para exibir um mapa interativo e traçar rotas entre dois endereços informados pelo usuário, oferecendo um planejamento de viagem simples e rápido.
+
+## ✨ Funcionalidades
+
+- 🗺️ Visualização de mapa dinâmico e responsivo
+- 📍 Traçado automático de rotas entre dois endereços
+- ⚡ Interface fluida construída com React e lógica em TypeScript/JavaScript
+
+## 🛠️ Tecnologias
+
+<p align="center">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Maps%20API-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+</p>
+
+## ▶️ Como usar
+
+1. Clone o repositório e acesse a pasta `ReactRouteExplorer`.
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie a aplicação:
+   ```bash
+   npm start
+   ```
+4. Insira o endereço de partida e o endereço de destino nos campos indicados.
+5. Visualize a rota traçada automaticamente no mapa.
+
+---
+
+<p align="center"><i>Projeto desenvolvido como parte dos meus estudos em Desenvolvimento Full Stack.</i></p>
