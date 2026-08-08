@@ -28,7 +28,7 @@ O **React Route Explorer** é uma aplicação web que utiliza a API do Google Ma
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Eduardo00073/ReactRouteExplorer.git
+   git clone https://github.com/Eduardo00073/react-route-explorer.git
    ```
 2. Instale as dependências:
    ```bash
