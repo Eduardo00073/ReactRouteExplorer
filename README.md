@@ -44,3 +44,15 @@ O **React Route Explorer** é uma aplicação web que utiliza a API do Google Ma
 ---
 
 <p align="center"><i>Projeto desenvolvido como parte dos meus estudos em Desenvolvimento Full Stack.</i></p>
+
+---
+
+## ⭐ Gostou do projeto?
+
+Se este projeto te ajudou ou despertou seu interesse, deixe uma estrela — isso ajuda outros desenvolvedores a encontrarem o repositório.
+
+### 🔗 Outros projetos relacionados
+
+📘 [TypeScript Estudos](https://github.com/Eduardo00073/typescript-estudos) — fundamentos e conceitos avançados de TypeScript.
+
+🎨 [Books Frontend](https://github.com/Eduardo00073/books-frontend) — frontend em Vue.js consumindo uma API REST.
